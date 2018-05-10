@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine6/style.css" />
+<script type="text/javascript" src="engine6/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Datos del alumno</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema8.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupoJavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></scrpit -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/desfile2.jpg','imagenes/MonIgn2.jpg','imagenes/desfile2p.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Batalla de Puebla</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Desfile de 4 de Mayo:</h1>
+  <div>
+  <p>Desfile en Atlixco: </p>
+  <br>
+  </div>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/desfile2.jpg',1)"><img src="imagenes/desfile.jpg" width="60%" height="60%" id="Image12"></a> </div>
+   </div>
+   </div>
+   
+  
+
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  
+  <h1>Batalla de 5 de Mayo:</h1>
+  <div>
+  <p>Desfile en Puebla: </p>
+  <br>
+  </div>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/desfile2p.jpg',1)"><img src="imagenes/desfile5M.jpg" width="60%" height="60%" id="Image14"></a> </div>
+   </div>
+
+</div>
+<div>
+   </div>
+
+   <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Batalla de 4 de Mayo</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Batalla de 5 de Mayo</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Inicio del conflicto</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Monumentos de la batalla y Museos</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Héroes de la batalla</h2>
+    
+    </a>
+    </li>
+    </ul>
+  </div>
+  
+      <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child">
+   <a href="https://www.gob.mx/agn/articulos/agnrecuerda-el-5-de-mayo-la-batalla-de-puebla?idiom=es" target="_self" data-role="button"/>
+  <h2>Más información...</h2>
+  </a>
+  </li>
+  <p>
+  <li class="ui-first-child">
+  <a href="#Pagina2" data-role="button" id="Pagina2">
+  <h2>5 de Mayo</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container6" align="center">
+<div class="ws_images"><ul>
+		<li><img src="data6/images/batalla1.jpg" alt="BATALLA1" title="BATALLA1" id="wows6_0"/></li>
+		<li><img src="data6/images/batalla.jpg" alt="BATALLA" title="BATALLA" id="wows6_1"/></li>
+		<li><img src="data6/images/ignacio.jpg" alt="IGNACIO" title="IGNACIO" id="wows6_2"/></li>
+		<li><img src="data6/images/museo.jpg" alt="MUSEO" title="MUSEO" id="wows6_3"/></li>
+		<li><img src="data6/images/museo1.jpg" alt="MUSEO1" title="MUSEO1" id="wows6_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data6/images/puebla.jpg" alt="wowslider.com" title="PUEBLA" id="wows6_5"/></a></li>
+		<li><img src="data6/images/puebla1.jpg" alt="PUEBLA1" title="PUEBLA1" id="wows6_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="BATALLA1"><span><img src="data6/tooltips/batalla1.jpg" alt="BATALLA1"/>1</span></a>
+		<a href="#" title="BATALLA"><span><img src="data6/tooltips/batalla.jpg" alt="BATALLA"/>2</span></a>
+		<a href="#" title="IGNACIO"><span><img src="data6/tooltips/ignacio.jpg" alt="IGNACIO"/>3</span></a>
+		<a href="#" title="MUSEO"><span><img src="data6/tooltips/museo.jpg" alt="MUSEO"/>4</span></a>
+		<a href="#" title="MUSEO1"><span><img src="data6/tooltips/museo1.jpg" alt="MUSEO1"/>5</span></a>
+		<a href="#" title="PUEBLA"><span><img src="data6/tooltips/puebla.jpg" alt="PUEBLA"/>6</span></a>
+		<a href="#" title="PUEBLA1"><span><img src="data6/tooltips/puebla1.jpg" alt="PUEBLA1"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine6/wowslider.js"></script>
+<script type="text/javascript" src="engine6/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+    <h4>Aplicación Cuatro</h4>
+    <h4>Maria Ignacia Postrero Santos</h4>
+    </div>
+    </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Batalla de 4 de Mayo</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+ <img src="imagenes/bat5mayo.jpg" width="50%" height="50%">
+    <p>
+    Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.</p>
+    <p>
+La llegada de la industria textil en Atlixco implicó para la región un cambio favorecedor en el estilo de vida; sin embargo, ésta época de desarrollo textil en el valle de Atlixco coincide con el movimiento revolucionario.</p>
+<p>
+Nuevamente,  un 4 de mayo de 1862, Atlixco, enfrenta una batalla en contra de conservadores que pretendían sumarse al Ejército Francés. Hecho decisivo en la epopeya del 5 de Mayo, que hoy es parte de la historia nacional.
+    </p>
+     <img src="imagenes/batalla5ma.jpg" width="50%" height="50%">
+    </div>
+    </div>
+    <div>
+   </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+</div>
+     
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Batalla de 5 de Mayo</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+   </div>
+    </div>
+     <img src="imagenes/batallaPuebla.jpg" width="50%" height="50%">
+    <p>
+     La Batalla de Puebla tuvo lugar el día 5 de mayo de 1862 en las inmediaciones de la ciudad de Puebla. Los bandos contendientes fueron los ejércitos de la República Mexicana, que estaban comandados por Ignacio Zaragoza, y el ejército del Segundo Imperio Francés, bajo las órdenes de Charles Ferdinand Latrille, conde de Lorencez. El resultado fue una victoria muy importante para el bando mexicano. Pero el éxito de esta conquista no logró su cometido final que era impedir la invasión de México por parte de tropas francesas sino que sólo retrasó el hecho.
+Enmarcada en la segunda intervención francesa, la Batalla de Puebla enfrentó al ejército invasor con el comandado por el general Ignacio Zaragoza. Una lucha entre una fuerza imperial compuesta de seis mil 48 efectivos, bien equipada y entrenada, contra un ejército de cuatro mil 700 combatientes, en su mayoría veteranos, más la ayuda de algunos civiles armados.
+    </p>
+    <img src="imagenes/batalla5ma.jpg" width="50%" height="50%">
+    
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Inicio del conflicto</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <p>Entre diciembre de 1861 y enero de 1862 las flotas armadas de España, Francia e Inglaterra, desembarcaron en Veracruz para ocupar las aduanas, presionar al gobierno mexicano y recuperar sus capitales. Los representantes de España e Inglaterra, el general Juan Prim y el embajador Charles Wyke, aceptaron negociar y llegar a un entendimiento con el ministro del exterior Manuel Doblado por lo que reembarcaron sus tropas y regresaron a sus países; no así el francés que exigió el pago inmediato de la deuda y Charles Ferdinand Latrille Conde de Lorencez siguiendo la consigna de Napoleón III, continuó con los planes de establecer una monarquía en México. Esto provocó la ruptura de la alianza tripartita y el incumplimiento de los ‘Tratados preliminares de La Soledad’; con lo que da inicio al conflicto armado entre México y Francia siendo el 19 de abril de 1862 cuando se realizan los primeros disparos en El Fortín en Veracruz. Los franceses y mexicanos conservadores establecieron un simulacro de gobierno en Orizaba, Veracruz  encabezado por el general Juan Nepomuceno Almonte para que los representara. En respuesta, Benito Juárez expidió un decreto declarando traidores a los mexicanos que colaboraran con los franceses e hizo un llamado a tomar las armas, autorizando a los gobernadores de los estados a realizar acciones al respecto y les pidió que enviaran contingentes militares con los que formó el Ejército de Oriente, logrando reunir cerca de 10 mil hombres, cuyos grupos cargaron sus propias insignias y pertrechos hasta Puebla para fortificarla.</p></div>
+    <div>
+    </div>
+  </div>
+  
+ 
+  
+ 
+  <img src="imagenes/inicioC.jpg" width="60%" height="60%">
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Monumentos de la batalla y Museos</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    </div>
+    </div>
+
+    
+    <h2>Monumento a la Victoria:</h2>
+    <img src="imagenes/monu2.jpg" width="50%" height="50%">
+    <p>
+     Los Fuertes de Loreto y Guadalupe guardan pequeños rincones y secretos relacionados a la famosa Batalla del 5 de Mayo. Además de las estructuras ya mencionadas, hay muchas otras maneras de recordar la batalla contra las fuerzas del Ejército francés. Una de ellas es el llamado Monumento a la Victoria, el cual estuvo en el olvido hasta hace pocos años.
+    </p>
+    <h2>Monumento a Ignacio Zaragoza</h2>
+    <p>Muchos poblanos no se dan cuenta al pasar por la Calzada Ejército del Oriente de que pasan por un mausoleo. Se trata del lugar de descansa de los restos de uno de los generales más importantes que ha tenido México. Nos referimos al Monumento a Ignacio Zaragoza, ubicado cerca de los Fuertes de Loreto y Guadalupe, donde defendió al país.</p>
+    <img src="imagenes/monu.jpg" width="60%" height="60%">
+    <h2>Museo Interactivo de La Batalla del 5 de Mayo</h2>
+    <img src="imagenes/museo.jpg" width="50%" height="50%">
+    <p>
+    Puebla fue un punto clave para la historia del país, por lo que este museo interactivo revive de forma didáctica la batalla del 5 de Mayo de 1862 en la zona de Los Fuertes, el mismo escenario donde se desarrollaron estos hechos.
+    </p>
+    
+    <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child">
+   <a href="https://coyotitos.com/museo-interactivo-de-la-batalla-del-5-de-mayo-en-puebla/" target="_self" data-role="button"/>
+  <h2>Más monumentos...</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+    
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Héroes de la batalla</h1>
+    </div>
+<div data-role="content" align="center">
+    <div>
+    
+
+    <h2>Ignacio Zaragoza</h2></div>
+   <p>Ignacio Zaragoza, Ministro de Guerra y militar que dirigió el Ejército Mexicano, quienes, acompañados por un grupo de indígenas -conocidos erróneamente como zacapoaxtlas- se rebelaron en las afueras de la ciudad de Puebla contra las tropas francesas, dirigidas por el conde de Lorencez, Charles Ferdinand Latrille, durante la Segunda Intervención Francesa en México.</p>
+   
+   
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/MonIgn2.jpg',1)"><img src="imagenes/MonIgn.jpg" width="60%" height="60%" id="Image13"></a>
+<h2>Miguel Negrete Novoa </h2>
+<p>Negrete fue investido con el cargo de general en 1862 por orden de Ignacio Zaragoza, fue el único militar nacido en Tepeaca con el grado de General de División, por ese motivo,  su recuerdo se mantiene vivo como en monumento en la Plaza de Armas, o la inscripción de su nombre en letras de oro en el muro de honor del Congreso del Estado.</p>
+ <img src="imagenes/mig.jpg" width="50%" height="50%">
+  <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <li class="ui-first-child">
+   <a href="https://www.eleconomista.com.mx/arteseideas/Heroes-relatos-y-decires-del-5-de-mayo-20170504-0034.html" target="_self" data-role="button"/>
+  <h2>Más héroes...</h2>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div>
+  
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicacion Cuatro, MIPS</h4>
+    </div>
+    </div>
+</body>
+</html>
